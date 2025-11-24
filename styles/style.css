@@ -1,14 +1,42 @@
-.main-img {
-  width: 300px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  border: 3px solid #444;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.main-img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 20px 40px;
+}
+
+/* Logo */
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+/* Each link */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #00b7ff; /* blue highlight */
 }
