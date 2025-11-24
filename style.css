@@ -1,11 +1,7 @@
-/* Reset default styles */
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+h2 {
+  color: red;
 }
 
-/* Navbar container */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,29 +10,24 @@
   padding: 20px 40px;
 }
 
-/* Logo */
 .logo {
   color: white;
   font-size: 28px;
   font-weight: bold;
 }
 
-/* Navigation links */
 .nav-links {
   display: flex;
   gap: 30px;
   list-style: none;
 }
 
-/* Each link */
 .nav-links a {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  transition: 0.3s;
 }
 
-/* Hover effect */
 .nav-links a:hover {
-  color: #00b7ff; /* blue highlight */
+  color: #00b7ff;
 }
